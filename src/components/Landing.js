@@ -34,6 +34,11 @@ class Landing extends Component {
                                 <a href="https://gitlab.com/Sanecki" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-gitlab" aria-hidden="true" />
                                 </a>
+
+                                {/* BitBucket */}
+                                <a href="https://bitbucket.org/%7B13196241-9403-4cb2-bc11-a7f1616b9fbe%7D/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-bitbucket" aria-hidden="true" />
+                                </a>
                             </div>
                         </div>
                     </Cell>
