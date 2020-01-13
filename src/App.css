@@ -26,7 +26,7 @@
   background-color: black;
   opacity: 0.8;
   width: 75%;
-  margin: auto;
+  margin: 1em auto;
   border-radius: 10px;
 }
 
@@ -34,6 +34,7 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+  margin: 0 auto;
 }
 
 .banner-text hr {
@@ -45,7 +46,8 @@
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
+  padding: 0.5em 1em;
+  margin: 0;
 }
 
 .social-links {
@@ -58,5 +60,5 @@
 .social-links a {
   color: white;
   font-size: 5em;
-  padding: 8px;
+  padding: 12px;
 }
