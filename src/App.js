@@ -6,33 +6,27 @@ import { Link } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="demo-big-content">
-            <Layout fixedHeader>
-                <Header className="header-color" title={
-                    <Link style={{ textDecoration: 'none', color: 'white' }} to="/">Home</Link>
-                }>
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
-                    </Navigation>
-                </Header>
-                <Drawer className="drawer-color"title={
-                    <Link style={{ textDecoration: 'none' }} to="/">Home</Link>
-                }>
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
-                    </Navigation>
-                </Drawer>
-                <Content>
-                    <Main />
-                </Content>
-            </Layout>
-        </div>
+        <Layout>
+            <Header className="header-color" title={ <Link className="header-main-link" to="/">Home</Link> }>
+                <Navigation>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Header>
+            <Drawer title={ <Link className="drawer-main-link" to="/">Home</Link> }>
+                <Navigation>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Drawer>
+            <Content>
+                <Main />
+            </Content>
+        </Layout>
     );
 }
 
