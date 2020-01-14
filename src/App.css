@@ -14,37 +14,113 @@
   text-decoration: none;
 }
 
+/* Landing Page CSS */
 .landing-grid {
   background: #0575E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  background-size: cover;
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
-  margin: 1em auto;
   border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+}
+
+.banner-text p {
   color: white;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.social-links a {
+  color: white;
+}
+
+@media screen and (min-width: 1025px) {
+  .avatar-img {
+    height: 350px;
+    padding-top: 3em;
+  }
+
+  .banner-text {
+    width: 60%;
+    margin: 1em auto;
+  }
+
+  .banner-text h1 {
+    font-size: 66px;
+  }
+
+  .banner-text p {
+    font-size: 20px;
+  }
+
+  .social-links a {
+    font-size: 4em;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .avatar-img {
+    height: 250px;
+    padding-top: 2em;
+  }
+
+  .banner-text {
+    width: 75%;
+    margin: 2em auto;
+  }
+
+  .banner-text h1 {
+    font-size: 40px;
+    padding: 6px;
+  }
+
+  .banner-text p {
+    font-size: 15px;
+  }
+
+  .social-links a {
+    font-size: 2em;
+    padding: 12px 3px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .banner-text {
+    width: 65%;
+    margin: 2em auto;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+    padding: 6px;
+  }
+
+  .banner-text p {
+    font-size: 20px;
+  }
+
+  .social-links a {
+    font-size: 3em;
+    padding: 12px 3px;
+  }
 }
 
 .banner-text hr {
@@ -53,24 +129,11 @@
   margin: auto;
 }
 
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 0.5em 1em;
-  margin: 0;
-}
-
 .social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
-}
-
-.social-links a {
-  color: white;
-  font-size: 5em;
-  padding: 12px;
 }
 
 .projects-grid {
