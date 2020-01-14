@@ -35,16 +35,29 @@
   border-radius: 10px;
 }
 
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
 .banner-text h1 {
-    font-weight: bold;
-    color: white;
-    margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto;
 }
 
 .banner-text p {
   color: white;
   margin: 0;
   padding: 0.5em 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
 .social-links a {
@@ -167,30 +180,13 @@
   }
 }
 
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.projects-grid {
-  display: flex;
-}
-
+/* Contact Page CSS */
 .contact-body {
   margin: auto;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .contact-grid {
@@ -207,9 +203,16 @@
   font-family: 'Anton', sans-serif;
 }
 
+.contact-grid img {
+  height: 250px;
+}
+
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+  width: 100%;
+  margin: auto;
+  padding-top: 2em;
 }
 
 .contact-grid hr {
@@ -218,9 +221,56 @@
   margin: auto;
 }
 
-.contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+.contact-list {
+  width: 100%;
+}
+
+.contact-item {
+  font-family: 'Anton';
+}
+
+@media screen and (max-width: 839px) {
+  .contact-item {
+    font-size: 20px;
+  }
+
+  .contact-item i {
+    font-size: 25px;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 840px) and (max-width: 1024px) {
+  .contact-item {
+    font-size: 25px;
+  }
+
+  .contact-item i {
+    font-size: 30px;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
+  .contact-item {
+    font-size: 30px;
+  }
+
+  .contact-item i {
+    font-size: 45px;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .contact-item {
+    font-size: 45px;
+  }
+
+  .contact-item i {
+    font-size: 60px;
+    padding-right: 3rem;
+  }
 }
 
 .resume-right-col {
