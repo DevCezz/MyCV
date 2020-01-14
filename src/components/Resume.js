@@ -59,7 +59,7 @@ class Resume extends Component {
 
                     <Experience startYear="2019/06" endYear="obecnie"
                         jobName="LekSeek Polska Sp. z o.o. Sp. k."
-                        jobProfesion="Programista JAVA"
+                        jobProfession="Programista JAVA"
                         jobDescription={
                             [`Programowanie w Javie 8, 11`,
                             `Używanie framework’ów Spring (MVC, Security) i Hibernate`,
@@ -68,7 +68,7 @@ class Resume extends Component {
                     />
                     <Experience startYear="2019/03" endYear="2019/05"
                         jobName="Grupa Exorigo-Upos sp. z o.o. "
-                        jobProfesion="Programista JAVA/Analityk"
+                        jobProfession="Programista JAVA/Analityk"
                         jobDescription={
                             [`Programowanie w Javie 8`,
                             `Używanie framework’ów Spring (MVC, Security) i Hibernate`,
@@ -78,7 +78,7 @@ class Resume extends Component {
                     />
                     <Experience startYear="2018/04" endYear="2019/02"
                         jobName="Accenture Services Sp. z o.o."
-                        jobProfesion="Mainframe Core Banking Developer"
+                        jobProfession="Mainframe Core Banking Developer"
                         jobDescription={
                             ['Programowanie w COBOL, CICS i JCL na z/OS',
                             'Tworzenie dokumentacji',
@@ -86,11 +86,11 @@ class Resume extends Component {
                     />
                     <Experience startYear="2017/01" endYear="2018/02"
                         jobName="PKBI - Pracownia Konstrukcji Budowlano-Inżynieryjnych"
-                        jobProfesion="Asystent projektanta konstrukcji"
+                        jobProfession="Asystent projektanta konstrukcji"
                     />
                     <Experience startYear="2016/10" endYear="2016/12"
-                        jobName="EElectronic Control Systems Sp. z o.o."
-                        jobProfesion="Asystent projektanta konstrukcji"
+                        jobName="Electronic Control Systems Sp. z o.o."
+                        jobProfession="Asystent projektanta konstrukcji"
                     />
                     
                     <hr style={{ borderTop: '3px solid #e22947' } } />

@@ -24,7 +24,7 @@ class Exceprience extends Component {
                 </Cell>
                 <Cell col={ 9 }>
                     <h4 style={{ fontSize: '30px', margin: '0' }}>{ this.props.jobName }</h4>
-                    <h5 style={{ fontWeight: 'bold', fontSize: '15px', margin: '5px 0' }}>{ this.props.jobProfesion }</h5>
+                    <h5 style={{ fontWeight: 'bold', fontSize: '16px', margin: '6px 0' }}>{ this.props.jobProfession }</h5>
                     <p style={{ marginBottom: '0' }}>
                         { this.joinDescription(this.props.jobDescription) }
                     </p>
