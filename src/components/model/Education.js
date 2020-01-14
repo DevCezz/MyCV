@@ -5,14 +5,15 @@ class Education extends Component {
     render() {
         return (
             <Grid>
-                <Cell col={ 4 }>
-                    <p>
+                <Cell col={ 3 }>
+                    <p style={{ fontSize: '18px' }}>
                         { this.props.startYear } - { this.props.endYear }
                     </p>
                 </Cell>
-                <Cell col={ 8 }>
-                    <h4 style={{ marginTop: '0px' }}>{ this.props.schoolName }</h4>
-                    <p>
+                <Cell col={ 9 }>
+                    <h4 style={{ fontSize: '30px', margin: '0' }}>{ this.props.schoolName }</h4>
+                    <h5 style={{ fontWeight: 'bold', fontSize: '15px', margin: '5px 0' }}>{ this.props.schoolProfile }</h5>
+                    <p style={{ marginBottom: '0', whiteSpace: 'pre-wrap' }}>
                         { this.props.schoolDescription }
                     </p>
                 </Cell>
