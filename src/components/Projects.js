@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './model/ProjectCard';
 
 class Projects extends Component {
     constructor(props) {
@@ -160,7 +160,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div style={{ maxWidth: '1240px', margin: 'auto' }}>
+            <div className="project-body">
                 <Tabs activeTab={ this.state.activeTab } onChange={ (tabId) => this.setState({ activeTab: tabId }) } ripple>
                     <Tab>React</Tab>
                     <Tab>Java</Tab>

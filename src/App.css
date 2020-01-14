@@ -125,6 +125,17 @@
 }
 
 /* Projects Page CSS */
+.project-body {
+  max-width: 1240px;
+  margin: auto;
+}
+
+@media screen and (max-width: 580px) {
+  .project-body {
+    margin: 2em;
+  }
+}
+
 .project-card {
   margin: auto;
 }
