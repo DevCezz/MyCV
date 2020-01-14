@@ -60,6 +60,7 @@
   .banner-text {
     width: 60%;
     margin: 1em auto;
+    padding: 2em 0;
   }
 
   .banner-text h1 {
@@ -120,6 +121,38 @@
   .social-links a {
     font-size: 3em;
     padding: 12px 3px;
+  }
+}
+
+/* Projects Page CSS */
+.project-card {
+  margin: auto;
+}
+
+.project-card-title {
+  color: white !important;
+  height: 176px;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 479px) {
+  .project-card {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 555px) {
+  .project-card {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 556px) {
+  .project-card {
+    width: 250px !important;
   }
 }
 
