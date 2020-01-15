@@ -274,8 +274,89 @@
 }
 
 /* Resume Page CSS */
-.resume-right-col {
+.resume-experience {
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.resume-experience-title {
+  margin: 0;
+}
+
+.resume-about-me {
+  text-align: center;
+}
+
+.resume-about-me img {
+  height: 250px;
+  margin-top: 2em;
+}
+
+.resume-about-me h2 {
+  margin-bottom: 0.25em;
+}
+
+.resume-about-me h4 {
+  color: grey;
+  margin-top: 0;
+}
+
+.resume-about-me hr {
+  border-top: 3px solid #833FB2;
+  width: 60%;
+  margin: auto
+}
+
+.resume-about-me p {
+  text-align: justify;
+  margin: 15px auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 839px) {
+  .resume-about-me {
+    width: 100% !important;
+  }
+
+  .skill-progress {
+    width: 80% !important;
+  }
+
+  .resume-bottom-hr {
+    display: none;
+  }
+}
+
+.resume-experience hr {
+  border-top: 3px solid #e22947;
+}
+
+.experience-date {
+  font-size: 18px;
+}
+
+.experience-job-name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.experience-job-profession {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.experience-job-desc {
+  margin-bottom: 0;
+}
+
+.experience-job-desc div {
+  padding-left: 5px;
+}
+
+.skill-progress-bar {
+  margin: auto;
+  width: 90% !important;
+  top: 45%;
 }

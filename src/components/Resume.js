@@ -8,18 +8,14 @@ class Resume extends Component {
     render() {
         return (
             <Grid>
-                <Cell col={ 4 }>
-                    <div style={{ textAlign: 'center' }}>
-                        <img 
-                            src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png"
-                            alt="avatar"
-                            style={{ height: '200px' }}
-                        />
-                    </div>
-
-                    <h2 style={{ paddingTop: '2em' }}>Cezary Sanecki</h2>
-                    <h4 style={{ color: 'grey' }}>Java Developer</h4>
-                    <hr style={{ borderTop: '3px solid #833FB2', width: '50%' }} />
+                <Cell col={ 4 } className="resume-about-me">
+                    <img 
+                        src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png"
+                        alt="avatar"
+                    />
+                    <h2>Cezary Sanecki</h2>
+                    <h4>Java Developer</h4>
+                    <hr />
                     <p>
                         Moim celem zawodowym jest ciągłe pogłębianie wiedzy o technologiach Javowych 
                         oraz architekturze oprogramowania. Posiadam prawie dwuletnie doświadczenie 
@@ -28,34 +24,10 @@ class Resume extends Component {
                         za rozwiązywanie problemów biznesowych i ich implementację. W wolnym czasie 
                         ciągle pogłębiam wiedzę, aby spełnić swoje postanowienia.
                     </p>
-                    <hr style={{ borderTop: '3px solid #833FB2', width: '50%' }} />
-                    <h5>Adres</h5>
-                    <p>
-                        ul. Wrzeciono 12A m.5
-                        <br />
-                        01-961, Warszawa
-                    </p>
-                    <h5>Telefon</h5>
-                    <p>
-                        793-962-920
-                    </p>
-                    <h5>Email</h5>
-                    <p>
-                        csanecki@gmail.com
-                    </p>
-                    <h5>Web</h5>
-                    <p>
-                        https://github.com/Czarus0
-                        <br/>
-                        https://bitbucket.org/csanecki/
-                        <br/>
-                        https://gitlab.com/Sanecki
-                        <br/>
-                        https://www.linkedin.com/in/cezary-sanecki-54ba94154/
-                    </p>
+                    <hr className="resume-bottom-hr"/>
                 </Cell>
-                <Cell col={ 8 } className="resume-right-col">
-                    <h2>Doświadczenie</h2>
+                <Cell col={ 8 } className="resume-experience">
+                    <h3 className="resume-experience-title">Doświadczenie</h3>
 
                     <Experience startYear="2019/06" endYear="obecnie"
                         jobName="LekSeek Polska Sp. z o.o. Sp. k."
@@ -93,8 +65,8 @@ class Resume extends Component {
                         jobProfession="Asystent projektanta konstrukcji"
                     />
                     
-                    <hr style={{ borderTop: '3px solid #e22947' } } />
-                    <h2>Wykształcenie</h2>
+                    <hr />
+                    <h3 className="resume-experience-title">Wykształcenie</h3>
 
                     <Education startYear="2018/02" endYear="obecnie"
                         schoolName="Politechnika Warszawska"
@@ -112,12 +84,18 @@ class Resume extends Component {
                         schoolDescription="inżynierskie, studia stacjonarne, ocena: bardzo dobra"
                     />
 
-                    <hr style={{ borderTop: '3px solid #e22947' } } />
-                    <h2>Umiejętności</h2>
+                    <hr />
+                    <h3 className="resume-experience-title">Umiejętności</h3>
 
                     <Skills skill="Java" progress={ 75 } />
-                    <Skills skill="Spring" progress={ 65 } />
+                    <Skills skill="Spring" progress={ 60 } />
                     <Skills skill="Hibernate" progress={ 50 } />
+                    <Skills skill="Git" progress={ 50 } />
+                    <Skills skill="SVN" progress={ 40 } />
+                    <Skills skill="MySQL" progress={ 60 } />
+                    <Skills skill="Eclipse" progress={ 50 } />
+                    <Skills skill="IntelliJ" progress={ 40 } />
+                    <Skills skill="JUnit" progress={ 40 } />
                     <Skills skill="React" progress={ 15 } />
                 </Cell>
             </Grid>

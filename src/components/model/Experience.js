@@ -4,13 +4,9 @@ import { Grid, Cell } from 'react-mdl';
 class Exceprience extends Component {
     joinDescription(list) {
         if(list) {
-            var indents = [];
-
-            list.forEach(item => {
-                indents.push(<div style={{ paddingLeft: '5px' }}>- { item }</div>);
-            });
-
-            return indents;
+            return list.map((item, index) =>
+                <div key={ index }>- { item }</div>
+            );
         }
     };
 
@@ -18,16 +14,20 @@ class Exceprience extends Component {
         return (
             <Grid>
                 <Cell col={ 3 }>
-                    <p style={{ fontSize: '18px' }}>
+                    <p className="experience-date">
                         { this.props.startYear } - { this.props.endYear }
                     </p>
                 </Cell>
                 <Cell col={ 9 }>
-                    <h4 style={{ fontSize: '30px', margin: '0' }}>{ this.props.jobName }</h4>
-                    <h5 style={{ fontWeight: 'bold', fontSize: '16px', margin: '6px 0' }}>{ this.props.jobProfession }</h5>
-                    <p style={{ marginBottom: '0' }}>
+                    <h4 className="experience-job-name">
+                        { this.props.jobName }
+                    </h4>
+                    <h5 className="experience-job-profession">
+                        { this.props.jobProfession }
+                    </h5>
+                    <div className="experience-job-desc">
                         { this.joinDescription(this.props.jobDescription) }
-                    </p>
+                    </div>
                 </Cell>
             </Grid>
         )
