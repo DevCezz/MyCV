@@ -1,4 +1,13 @@
 /* App Page CSS */
+.chosen-page-header {
+  font-weight: bold !important;
+  color: #0575E6 !important;
+}
+
+.chosen-page-drawer {
+  background: rgb(224,224,224);
+}
+
 .header-color {
   background: #FF512F !important;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #F09819, #FF512F) !important;  /* Chrome 10-25, Safari 5.1-6 */
