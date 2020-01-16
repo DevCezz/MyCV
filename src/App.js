@@ -9,18 +9,18 @@ function App() {
         <Layout>
             <Header className="header-color" title={ <Link className="header-main-link" to="/">Home</Link> }>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/resume">CV</Link>
+                    <Link to="/aboutme">O mnie</Link>
+                    <Link to="/projects">Projekty</Link>
+                    <Link to="/contact">Kontakt</Link>
                 </Navigation>
             </Header>
             <Drawer title={ <Link className="drawer-main-link" to="/">Home</Link> }>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/resume">CV</Link>
+                    <Link to="/aboutme">O mnie</Link>
+                    <Link to="/projects">Projekty</Link>
+                    <Link to="/contact">Kontakt</Link>
                 </Navigation>
             </Drawer>
             <Content>

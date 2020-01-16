@@ -13,7 +13,8 @@ class Landing extends Component {
                     />
 
                     <div className="banner-text">
-                        <h1>Java Developer</h1>
+                        <h1>Cezary Sanecki</h1>
+                        <h2>Java Developer</h2>
                         <hr/>
                         <p>
                             Java | Spring | Hibernate | Git | MySQL
