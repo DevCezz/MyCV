@@ -17,12 +17,13 @@ class Resume extends Component {
                     <h4>Java Developer</h4>
                     <hr />
                     <p>
-                        Moim celem zawodowym jest ciągłe pogłębianie wiedzy o technologiach Javowych 
-                        oraz architekturze oprogramowania. Posiadam prawie dwuletnie doświadczenie 
+                        Moim celem zawodowym jest zostanie doświadczonym programistą Java ze znajomością 
+                        zagadnień dotyczących architektury oprogramowania. Uważam, że praca zespołowa jest 
+                        największą siłą realizowanego projektu. Posiadam prawie dwuletnie doświadczenie 
                         programistyczne, które zdobywałem na projektach dla dużego klienta z Niemiec, 
                         największego banku w Polsce oraz także w polskich firmach. Jestem odpowiedzialny 
-                        za rozwiązywanie problemów biznesowych i ich implementację. W wolnym czasie 
-                        ciągle pogłębiam wiedzę, aby spełnić swoje postanowienia.
+                        za rozwiązywanie problemów biznesowych i ich implementację. W wolnym czasie ciągle 
+                        pogłębiam wiedzę, aby spełnić swoje postanowienia.
                     </p>
                     <hr className="resume-bottom-hr"/>
                 </Cell>

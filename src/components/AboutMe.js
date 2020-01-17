@@ -7,19 +7,21 @@ class AboutMe extends Component {
                 <div>
                     Cześć,
                     <br />
-                    nazywam się Cezary i od prawie dwóch lat zajmuje się zawodowo programowaniem. 
-                    Z wykształcenia jestem budowlańcem (ukończyłem Budownictwo na Politechnice Warszawskiej), 
-                    ale od zawsze interesował mnie świat <strong>nowoczesnej technologii</strong>.
+                    nazywam się Cezary i od prawie dwóch lat zajmuje się zawodowo programowaniem. Prywatnie jestem
+                    szczęśliwym, świeżo upieczonym mężem a z wykształcenia budowlańcem (ukończyłem Budownictwo 
+                    na Politechnice Warszawskiej). Od zawsze interesował mnie świat <strong>nowoczesnych 
+                    technologii</strong>.
                     <br />
                     Początki swojej kariery zawodowej zaczynałem jako asystent projektanta budowlanego.
                     Początkowo cieszyłem się z tego, że mogę zacząć zdobywać doświadczenie w wyuczonym 
-                    zawodzie. Jednak rzeczywistość okazała się brutalna... <strong>Powtarzalność zadań, 
-                    brak szansy na rozwój, zero kreatywności</strong>. To wszystko skumulowało się do 
+                    zawodzie. Jednak rzeczywistość okazała się brutalna... Powtarzalność zadań, 
+                    brak szansy na rozwój, zero kreatywności. To wszystko skumulowało się do 
                     frustracji. 
                     <br />
-                    Na szczęście w firmie znalazła się osoba, która zainspirowała mnie do zmiany. 
-                    Pisała ona skrypty do AutoCad'a (program do kreślenia rysunków), które ułatwiały 
-                    rysowanie zbrojenia. Bardzo mnie to zainteresowało i postanowiłem się tego nauczyć. 
+                    Na szczęście w firmie <strong>znalazła się osoba, która zainspirowała mnie do 
+                    zmiany</strong>. Pisała ona skrypty do AutoCad'a (program do kreślenia rysunków), 
+                    które ułatwiały rysowanie zbrojenia. Bardzo mnie to zainteresowało i postanowiłem 
+                    się tego nauczyć. 
                     <hr />
                     Zacząłem od znanego, darmowego <strong>pdf'a do C++</strong> ("Od zera do gier kodera"). 
                     Przebrnąłem przez jego większą część i to było to! (chociaż do C++ miałem wcześniej 
@@ -40,8 +42,8 @@ class AboutMe extends Component {
                     Mainframe Developer</strong> (o COBOL'u nie miałem wtedy zielonego pojęcia). Było to wyzwanie, 
                     które na długo pozostanie w mojej pamięci.
                     <hr />
-                    Po roku doświadczenia korporacyjnego doszedłem do wniosku, że jednak chcę być uczyć się 
-                    programowania obiektowego w Javie (cały czas w zaciszu domowym się dokształcałem). Z tego 
+                    Po roku doświadczenia korporacyjnego doszedłem do wniosku, że jednak chcę mieć styczność z  
+                    programowaniem obiektowym w Javie (cały czas w zaciszu domowym się dokształcałem). Z tego 
                     powodu zmieniłem pracę i w końcu zostałem <strong>Java Developer'em</strong>, którym jestem 
                     już od niespełna roku.
                     <br />

@@ -1,3 +1,7 @@
+.mdl-layout__drawer-button {
+  color: white !important;
+}
+
 /* App Page CSS */
 .chosen-page-header {
   font-weight: bold !important;
