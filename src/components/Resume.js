@@ -30,7 +30,13 @@ class Resume extends Component {
                 <Cell col={ 8 } className="resume-experience">
                     <h3 className="resume-experience-title">Doświadczenie</h3>
 
-                    <Experience startYear="2019/06" endYear="obecnie"
+                    <Experience startYear="2020/03" endYear="obecnie"
+                        jobName="S&T Services Polska Sp. z o.o."
+                        jobProfession="Programista JAVA"
+                        jobDescription={
+                            [`...`] }
+                    />
+                    <Experience startYear="2019/06" endYear="2020/02"
                         jobName="LekSeek Polska Sp. z o.o. Sp. k."
                         jobProfession="Programista JAVA"
                         jobDescription={
@@ -56,14 +62,6 @@ class Resume extends Component {
                             ['Programowanie w COBOL, CICS i JCL na z/OS',
                             'Tworzenie dokumentacji',
                             'Programowanie w Javie na potrzeby replatformingu'] }
-                    />
-                    <Experience startYear="2017/01" endYear="2018/02"
-                        jobName="PKBI - Pracownia Konstrukcji Budowlano-Inżynieryjnych"
-                        jobProfession="Asystent projektanta konstrukcji"
-                    />
-                    <Experience startYear="2016/10" endYear="2016/12"
-                        jobName="Electronic Control Systems Sp. z o.o."
-                        jobProfession="Asystent projektanta konstrukcji"
                     />
                     
                     <hr />

@@ -32,6 +32,15 @@ class Projects extends Component {
                             projectLinkName="GitLab" 
                         />
                     </Cell>
+                    <Cell col={ 4 }>
+                        <ProjectCard 
+                            projectName="#3 BookApp Client" 
+                            projectDescription="Aplikacja korzystająca z API innej mojej aplikacji book-api w Spring'u." 
+                            backgroundImageUrl={{ background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover' }}
+                            projectLink="https://gitlab.com/Sanecki/book-app-client"
+                            projectLinkName="GitLab" 
+                        />
+                    </Cell>
                 </Grid>
             )
         } else if(this.state.activeTab === 1) {
@@ -122,6 +131,24 @@ class Projects extends Component {
                             wdrożenia DDD." 
                             backgroundImageUrl={{ background: 'url(https://dammayxanh.files.wordpress.com/2017/09/springboot.png) left / cover' }}
                             projectLink="https://gitlab.com/Sanecki/bookrental"
+                            projectLinkName="GitLab" 
+                        />
+                    </Cell>
+                    <Cell col={ 4 }>
+                        <ProjectCard 
+                            projectName="#4 MicroLoan" 
+                            projectDescription="Aplikacja zrobiona na potrzeby rekrutacji - zarządzanie pożyczkami." 
+                            backgroundImageUrl={{ background: 'url(https://dammayxanh.files.wordpress.com/2017/09/springboot.png) left / cover' }}
+                            projectLink="https://gitlab.com/Sanecki/micro-loan"
+                            projectLinkName="GitLab" 
+                        />
+                    </Cell>
+                    <Cell col={ 4 }>
+                        <ProjectCard 
+                            projectName="#5 BookApp" 
+                            projectDescription="Zwykła aplikacja CRUD'owa do zarządzania ksiązkami." 
+                            backgroundImageUrl={{ background: 'url(https://dammayxanh.files.wordpress.com/2017/09/springboot.png) left / cover' }}
+                            projectLink="https://gitlab.com/Sanecki/book-app"
                             projectLinkName="GitLab" 
                         />
                     </Cell>
