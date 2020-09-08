@@ -9,7 +9,7 @@ class Contact extends Component {
                     <Cell col={ 6 }>
                         <h2>Cezary Sanecki</h2>
                         <img 
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                            src="/images/me.png"
                             alt="avatar"
                         />
                         <p>
@@ -31,7 +31,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent className="contact-item">
                                         <i className="fa fa-envelope" area-hidden="true" />
-                                        csanecki@gmail.com
+                                        devcezz@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                             </List>

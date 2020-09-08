@@ -10,7 +10,7 @@ class Resume extends Component {
             <Grid>
                 <Cell col={ 4 } className="resume-about-me">
                     <img 
-                        src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png"
+                        src="/images/cv.png"
                         alt="avatar"
                     />
                     <h2>Cezary Sanecki</h2>
@@ -31,10 +31,14 @@ class Resume extends Component {
                     <h3 className="resume-experience-title">Doświadczenie</h3>
 
                     <Experience startYear="2020/03" endYear="obecnie"
-                        jobName="S&T Services Polska Sp. z o.o."
+                        jobName="S&amp;T Services Polska Sp. z o.o."
                         jobProfession="Programista JAVA"
                         jobDescription={
-                            [`...`] }
+                            [`Programowanie w Javie 8`,
+                            `Używanie framework’ów Spring Boot i Hibernate`,
+                            `Korzystanie z Git, MySQL i REST`,
+                            `Programowanie frontend'owe w Angularze`,
+                            `Wykorzystywanie docker'ów`] }
                     />
                     <Experience startYear="2019/06" endYear="2020/02"
                         jobName="LekSeek Polska Sp. z o.o. Sp. k."
@@ -67,10 +71,10 @@ class Resume extends Component {
                     <hr />
                     <h3 className="resume-experience-title">Wykształcenie</h3>
 
-                    <Education startYear="2018/02" endYear="obecnie"
+                    <Education startYear="2018/02" endYear="2020/06"
                         schoolName="Politechnika Warszawska"
                         schoolProfile="Informatyka, Systemy Internetowe Wspomagania Zarządzania"
-                        schoolDescription="magisterskie, studia niestacjonarne"
+                        schoolDescription="magisterskie, studia niestacjonarne, ocena: ponad dobry"
                     />
                     <Education startYear="2016/07" endYear="2018/07"
                         schoolName="Politechnika Warszawska"
